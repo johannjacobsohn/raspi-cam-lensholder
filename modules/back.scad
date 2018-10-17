@@ -20,10 +20,10 @@ module base() {
         translate([2, 23, 0])
             screwsupport();
 
-        translate([15, 2, 0])
+        translate([14.5, 2, 0])
             screwsupport();
 
-        translate([15, 23, 0])
+        translate([14.5, 23, 0])
             screwsupport();
     }
 }
@@ -39,28 +39,28 @@ module back() {
                 base();
         }
 
-        translate([6.5, 2, -2])
+        translate([6.25, 2, -2])
             screwhole();
 
-        translate([6.5, 23, -2])
+        translate([6.25, 23, -2])
             screwhole();
 
-        translate([-6.5, 2, -2])
+        translate([-6.25, 2, -2])
             screwhole();
 
-        translate([-6.5, 23, -2])
+        translate([-6.25, 23, -2])
             screwhole();
 
-        translate([6.5, -2, -2])
+        translate([6.25, -2, -2])
             screwhole();
 
-        translate([6.5, -23, -2])
+        translate([6.25, -23, -2])
             screwhole();
 
-        translate([-6.5, -23, -2])
+        translate([-6.25, -23, -2])
             screwhole();
 
-        translate([-6.5, -2, -2])
+        translate([-6.25, -2, -2])
             screwhole();
     }
 }
